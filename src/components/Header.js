@@ -1,7 +1,9 @@
-
+import { ReactComponent as Desktop } from '../image/desktop.svg'
 const Header = () => {
     return (
-        <div>Header</div>
+        <header>
+            <Desktop className="img" />
+        </header>
     )
 }
 
